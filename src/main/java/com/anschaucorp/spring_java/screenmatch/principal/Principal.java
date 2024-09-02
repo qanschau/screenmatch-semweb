@@ -122,5 +122,6 @@ public class Principal {
         System.out.println("Pior avaliação: " + est.getMin());
         episodes.stream().filter(e -> e.getRate() == est.getMin()).forEach(e -> System.out.println(e.getTitle()));
         System.out.println("Quantidade: " + est.getCount());
+        System.out.println("----------------");
     }
 }
